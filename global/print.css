@@ -1,0 +1,58 @@
+﻿@media print {
+    /* Hide only the Contact Us section and related parts */
+    #contactSection,
+    .MenuContent,
+    form,
+    .success-message,
+
+    /*Hide other non-essential layout elements */
+    .header,
+    .footer,
+    .navbar,
+    img,
+    .logo,
+    .site-logo,
+    header img {
+        display: none !important;
+    }
+
+    /*center the "Our Weekly Schedule" title */
+    .scheduleContent h1 {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    /*Center the schedule container */
+    .schedule-container {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    /* Style the table for print */
+    .schedule {
+        font-size: 16px;
+        color: black;
+        border-collapse: collapse;
+        margin: 0 auto;
+    }
+
+    .schedule th, 
+    .schedule td {
+        border: 1px solid black;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .schedule th {
+        background-color: #BA4040;
+        color: white;
+    }
+
+    .schedule .closed {
+        color: red;
+        font-weight: bold;
+    }
+}
