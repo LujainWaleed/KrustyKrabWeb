@@ -1,4 +1,4 @@
-The websit link: http://www.the-krusty-krab.kesug.com/ 
+The website link: http://www.the-krusty-krab.kesug.com/ 
 
 ENJOY :) 
 
