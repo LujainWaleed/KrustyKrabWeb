@@ -40,7 +40,7 @@
 </div>
 
 <script
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAMAhFCZWyick4h4GU5lienOR-OYBl0GAo&libraries=maps,marker"
+    src="https://maps.googleapis.com/maps/api/js?key=..........&libraries=maps,marker"
     defer
 ></script>
 
